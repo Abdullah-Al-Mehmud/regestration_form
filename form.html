@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form class="form">
+
+      <img class="img" src="img/download.png">
+
+     <fieldset class="fld">
+        
+      </div>
+      <h1 class="reg">REGISTRATION</h1>
+      <!--<label class="title" for="yfn">Enter Your Full Name :</label>-->
+      <input class="field" placeholder="Enter Your First Name" id="yfn" type="text" required name="name" />
+
+      <!--<label class="title1" for="yln">Enter Your last Name :</label>-->
+      <input class="field1" placeholder="Enter Your Last Name" id="yln" type="text" required name="name" />
+
+      <!--<label class="title2" for="eml">Enter Your e-mail :</label>-->
+      <input class="field2" placeholder="Enter Your e-mail" id="eml" type="email" required name="name" />
+
+      <!--<label class="title3" for="pass">Enter Your password :</label>-->
+      <input class="field3" placeholder="Enter Your password" id="eml" type="password" required name="name" />
+
+     
+
+      <label class="title4" for="dob"> Date Of Birth:</label>
+      <input type="date" class="field3" id="dob" />
+
+      
+      <label class="title5" for="month"> Enter Month:</label>
+      <input type="month" class="field3" id="month" />
+
+       
+      <label class="title5" for="dat"> Enter date and time:</label>
+      <input type="datetime-local" class="field3" id="dat" />
+
+      <label class="title5" for="file"> Choose Your Image :</label>
+      <input type="file" class="field6" id="file" /> <br>
+
+      <label class="title5" for="fbp"> Facebook Profile </label>
+      <input type="url" class="field3" id="fbp" required name="url" placeholder="www.facebook.com....." />
+
+      <label class="title5" for="payment"> Enter payment:</label>
+      <input type="number" class="field3" id="payment" />
+
+      <label class="title5" for="number"> Enter your number:</label>
+      <input type="text" class="field3" id="number" placeholder="+880" name="phone" required />
+
+      <label class="title5" for="color"> Choose Your Fav Color:</label>
+      <input type="color" class="field7" id="color"   />
+
+       <label class="title5"> Select Your Department:</label> 
+      <select class="field3">
+        <option selected>Select Your Department</option>
+        <option>CSE</option>
+        <option>ENT</option>
+        <option>CIVIL</option>
+      </select>
+
+      <label class="title5" for="gender"> Gender:</label> <br>
+
+      <input type="radio" class="field8" id="gender" required value="male" name="1" /><font class="gender">Male</font> <br>
+
+      <input type="radio" class="field8" id="gender" required value="female" name="1" /><font class="gender">Female</font> <br>
+
+      <input type="radio" class="field8" id="gender" required value="bts" name="1" /><font class="gender">BTS</font> <br> <br>
+  
+      <label class="title5"> Feedback:</label> 
+        <textarea class="sms"></textarea>
+
+      <input type="checkbox" required>
+      <font ><a class="tac" href="#">I accept all terms and conditions</a></font>
+
+
+      <input class="field4" type="submit" value="Register Now">
+   
+      <input class="field4" type="reset" value="Reset All">
+    </fieldset>
+    </form>
+
+  </body>
+</html>

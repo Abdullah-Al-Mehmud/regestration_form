@@ -1,0 +1,156 @@
+.form {
+  width: 400px;
+  height: 1470px;
+  box-shadow: 0 0 10px grey;
+  margin: auto;
+  margin-top: 70px;
+  padding: 20px;
+  background: #2d3436;
+  border-radius: 20px;
+}
+
+.field {
+  width: 40%;
+  height: 20px;
+
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.field:hover {
+  box-shadow: 0 0 10px black;
+}
+.form:hover {
+  box-shadow: 0 0 45px black;
+}
+
+.field1 {
+  width: 40%;
+  height: 20px;
+
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  float: right;
+  margin-bottom: 25px;
+}
+.field1:hover {
+  box-shadow: 0 0 10px black;
+}
+.reg {
+  text-align: center;
+  font-family: Times New Roman;
+  color: #3498db;
+}
+.reg:hover {
+  text-shadow: 0 0 37px #18dcff;
+}
+
+.field2 {
+  width: 97%;
+  height: 20px;
+
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  float: right;
+  margin-bottom: 25px;
+}
+.field2:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.field3 {
+  width: 97%;
+  height: 20px;
+
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+
+  margin-bottom: 25px;
+}
+.field3:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.field4 {
+  width: 97%;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  float: right;
+  margin-bottom: 25px;
+}
+.field4:hover {
+  box-shadow: 0 0 10px black;
+  background-color: #4cd137;
+  color: white;
+}
+.title4 {
+  font-size: 20px;
+  color: #3498db;
+
+  word-spacing: 2px;
+}
+.title5 {
+  font-size: 20px;
+  color: #3498db;
+
+  word-spacing: 2px;
+}
+.field6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.field7 {
+  width: 100%;
+  height: 30px;
+
+  margin-top: 10px;
+
+  border-radius: 10px;
+
+  margin-bottom: 25px;
+}
+.field8 {
+  color: white;
+  border: none;
+}
+.gender {
+  color: white;
+}
+.sms {
+  width: 97%;
+  height: 60px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.tac {
+  color: #4cd137;
+  text-decoration: none;
+}
+.tac:hover {
+  color: #3498db;
+}
+.fld {
+  border: 2px solid #ffc312;
+  padding: 15px;
+  border-radius: 20px;
+}
+.fld:hover {
+  box-shadow: 0 0 10px #f79f1f;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px black;
+  margin-left: 150px;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+}
